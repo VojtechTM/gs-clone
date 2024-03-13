@@ -29,10 +29,17 @@ manager/music/bus="Music"
 
 SoundManager="*res://addons/resonate/sound_manager/sound_manager.gd"
 MusicManager="*res://addons/resonate/music_manager/music_manager.gd"
+DiscordSDKLoader="*res://addons/discord-sdk-gd/nodes/discord_autoload.gd"
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/mode=3
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/resonate/plugin.cfg")
+enabled=PackedStringArray("res://addons/discord-sdk-gd/plugin.cfg", "res://addons/resonate/plugin.cfg")
 
 [input]
 
